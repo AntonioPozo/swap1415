@@ -1,0 +1,12 @@
+ORDEN: ssh apozo@10.211.55.31 "ps aux | grep apache" > P1__Antonio-Miguel-Pozo-Camara.txt
+
+
+root      1233  0.0  1.6 343224 17044 ?        Ss   19:58   0:00 /usr/sbin/apache2 -k start
+www-data  1254  0.0  0.6 343248  6408 ?        S    19:58   0:00 /usr/sbin/apache2 -k start
+www-data  1255  0.0  0.6 343248  6408 ?        S    19:58   0:00 /usr/sbin/apache2 -k start
+www-data  1256  0.0  0.6 343248  6408 ?        S    19:58   0:00 /usr/sbin/apache2 -k start
+www-data  1257  0.0  0.6 343248  6408 ?        S    19:58   0:00 /usr/sbin/apache2 -k start
+www-data  1258  0.0  0.6 343248  6408 ?        S    19:58   0:00 /usr/sbin/apache2 -k start
+apozo     6317  0.0  0.2  44144  2948 pts/15   S+   20:10   0:00 ssh apozo@10.211.55.31 ps aux | grep apache
+apozo     6411  0.0  0.1  16596  1436 ?        Ss   20:10   0:00 bash -c ps aux | grep apache
+apozo     6413  0.0  0.0  15944   900 ?        S    20:10   0:00 grep apache

@@ -1,0 +1,14 @@
+PREGUNTAS TEST TEMA 2
+
+La estabilidad de un sistema se puede conseguir…
+	A) obteniendo máquinas más potentes de lo necesario
+	B) replicando máquinas para las mismas tareas
+	C) A y B son correctas
+	D) Ninguna de las anteriores es correcta
+	Respuesta correcta: A
+En un sistema escalable…
+	A) la optimización del hardware es primordial
+	B) la optimización del código es muy importante aunque no tanto como la optimización del hardware
+	C) la parte de diseño es la más importante
+	D) ninguna de las anteriores es correcta
+	Respuesta correcta: C

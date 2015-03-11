@@ -1,0 +1,14 @@
+PREGUNTAS TEST TEMA 1
+
+En una granja web se sirve…
+	A) contenido estático
+	B) contenido dinámico
+	C) o contenido estático o contenido dinámico
+	D) a y b son correctas
+	Respuesta correcta: D
+Un sitio web mal planificado…
+	A) el costo en tiempo en iniciar su actividad es mayor que el de mantenimiento
+	B) el costo en mantenimiento es mayor que el de iniciar su actividad
+	C) el costo en tiempo en iniciar su actividad es proporcional al tiempo que necesitará para el mantenimiento
+	D) ninguna es correcta, Tmantenimiento = 1/sqrt(tmantenimiento+tconstrucción*2)
+	Respuesta correcta: A

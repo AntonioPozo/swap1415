@@ -1,0 +1,14 @@
+PREGUNTAS TEST TEMA 3
+
+Una configuración sin DMZ (demilitarized zone) presenta el problema de… 
+	A) No se puede configurar una zona sin DMZ, por lo que el problema es ese mismo.
+	B) Ataques solamente externos a la zona
+	C) Cuello de botella
+	D) B y C son correctas
+	Respuesta correcta: C
+NAT nos sirve para
+	A) mapear una dirección pública a una dirección privada de una de las máquinas servidoras internas
+	B) obtener nuestra dirección ip desde el propio servidor
+	C) Comunicarnos con el router si entre el servidor y el router hay un switch
+	D) Ninguna de las anteriores es correcta
+	Respuesta correcta: A

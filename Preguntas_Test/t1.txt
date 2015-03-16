@@ -11,4 +11,4 @@ Un sitio web mal planificado…
 	B) el costo en mantenimiento es mayor que el de iniciar su actividad
 	C) el costo en tiempo en iniciar su actividad es proporcional al tiempo que necesitará para el mantenimiento
 	D) ninguna es correcta, Tmantenimiento = 1/sqrt(tmantenimiento+tconstrucción*2)
-	Respuesta correcta: A
+	Respuesta correcta: B

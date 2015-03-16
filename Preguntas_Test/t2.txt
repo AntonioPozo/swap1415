@@ -5,7 +5,7 @@ La estabilidad de un sistema se puede conseguir…
 	B) replicando máquinas para las mismas tareas
 	C) A y B son correctas
 	D) Ninguna de las anteriores es correcta
-	Respuesta correcta: A
+	Respuesta correcta: B
 En un sistema escalable…
 	A) la optimización del hardware es primordial
 	B) la optimización del código es muy importante aunque no tanto como la optimización del hardware

@@ -1,0 +1,15 @@
+PREGUNTAS TEST TEMA 3
+
+DNS usa la técnica
+	A) Round-Robin
+	B) SPN, Shortest Process Next
+	C) FIFO, First IN First Out
+	D) LIFO, Last In First Out
+	Respuesta correcta: A
+
+El balanceador de carga se configura
+	A) Como punto de entrada para los usuarios
+	B) Como punto de entrada a dos servidores
+	C) Como punto de entrada al servidor
+	D) Ninguna es correcta
+	Respuesta correcta: A

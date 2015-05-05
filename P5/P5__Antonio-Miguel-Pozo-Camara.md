@@ -40,6 +40,6 @@ en la maquina del cliente hacemos:
 5.- start slave (en el esclavo)
 
 
-Tuvimos el problema número 1236 porque hicimos inserciones antes de cambiar el master con el comando CHANGE MASTER. Después de modificar el master_log_file y el master_log_pos a las posiciones actualizadas después de la inserción el esclavo, ha funcionado sin problemas. Notamos la diferencia que no se ha transferido la tupla que insertamos antes de configurar bien el esclavo.
+Tuvimos el problema número 1236 porque hicimos inserciones antes de cambiar el master con el comando CHANGE MASTER. Después de modificar el master_log_file y el master_log_pos a las posiciones actualizadas después de la inserción el esclavo, ha funcionado sin problemas. Notamos la diferencia que no se ha transferido la tupla que insertamos antes de configurar bien el esclavo. 
 
 

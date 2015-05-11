@@ -23,7 +23,9 @@
 
 ##Ejercicio T7.4:
 Buscar información sobre los sistemas de ficheros en red más utilizados en la actualidad y comparar sus características. Hacer una lista de ventajas e inconvenientes de todos ellos, así como grandes sistemas en los que se utilicen.
+
 -SSA: Es una forma simple de almacenamiento externo. Existen dispositivos específicos que incluyen varios disos en rack. Posee una interfaz para conectar los discos a las controladoras (normalmente SCSI). Número limitado de puertos para hacer la conexión entre servidores y almacenamiento. Se suele usar para disponer del almacenamiento necesario para archivos y BD en clusters. La posibilidad de manejo y la flexibilidad de un SSA es limitada. Aceptan cambios en caliente de discos y varias configuraciones RAID. Dispositivos desarrollados por una empresa con unas especificaciones y herramientas propietarias.
+
 -SAN: Red de almacenamiento especializada que conecta dispositivos de almacenamiento a los servidores. Conjunto de dispositivos interconectados (discos, cintas, etc.) y servidores conectados a un canal de comunicación e intercambio de datos común (concentrador de alta velocidad). Este tipo de almacenamiento en red tiene una gran flexibilidad y facilidad de manejo del almacenamiento. Se puede actualizar cualquier componente. Red de alta velocidad (mínimo de 1Gbps). Es como un bus de un ordenador, pero compartido entre varias máquinas. A continuación se exponen algunas características:
 Utiliza hardware de red muy especializado. Una SAN ofrece una capa de abstracción entre los dispositivos de almacenamiento y los servidores, y permite que el espacio físico de almacenamiento crezca. Se puede usar para almacenar archivos, compartir datos entre los servidores, mirroring de discos y backups. Puede operar con SSA y NAS. Permite que se añadan nuevos dispositivos al sistema (servidores o almacenamiento).
 

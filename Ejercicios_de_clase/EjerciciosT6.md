@@ -38,3 +38,23 @@ En la siguiente captura se muestra la salida del comando nmap -v -A 10.211.55.31
 
 ##Ejercicio T6.3:
 Buscar información acerca de los tipos de ataques más comunes en servidores web, en qué consisten y cómo se pueden evitar
+
+- Ataques DDOS: Este tipo de ataque hace que el sistema sea inaccesible por los usuarios que solicitan su servicio. Consiste en realizar un gran número de accesos al sistema servidor provocando la saturación del ancho de banda de la víctima o la sobrecarga de su sistema. El fin que persiguen este tipo de ataques es que el sistema no pueda seguir prestando sus servicios por la saturación que se le produce. Estos ataques se suelen producir desde un gran número de puntos de conexión y son muy usados por el colectivo de crakers Anonymous sobre webs gubernamentales.	
+
+- Ataques de fuerza bruta:Este tipo de ataques permiten ir comprobando todas las combinaciones posibles para poder acceder a un recurso. 
+Las posibles combinaciones de los parámetros a utilizar pueden proporcionarse mediante diccionarios (ficheros de texto) y su uso puede ser general, específico o especialmente creados para tal fin. También es posible proporcionar valores sistemáticos y secuenciales que cubran todas las combinaciones posibles.
+
+
+Ataques de inyección SQL: Se entiende  por inyección SQL el hecho de insertar una serie de sentencias SQL en una consulta mediante  la manipulación de la entrada de datos de una aplicación. 
+Estos ataques se realizan sobre webs que interactuan con bases de datos, sino se realiza un filtro de la información enviada por los usuarios, estos pueden insertar  código SQL a través de los datos de entrada que se envían al servidor y que, a través de este código insertado, se podría acceder a información almacenada en el servidor. Esta inclusión de código consiste en poner caracteres especiales en los campos que se rellenan en formularios de la web, ejemplo de ello sería añadir en un campo contraseña: 1234 ' OR '1' = '1 , lo cual enviará al servidor el dato ‘1234’ OR ‘1’ = ‘1’ lo cual sería una condición que siempre es verdadera. Un tipo de ataque es el llamado “Ataque a ciegas por inyeción de SQL” este tipo de web se delata de ser vulnerables al no mostrar un mensaje de error al ejecutar una sentencia SQL errónea, por ejemplo introduciendo una comilla (‘) en el campo de texto, pudiendo realizarse pruebas hasta encontrar el nombre o tablas sobre los que se pueden actuar. 
+
+
+
+Ataques XSS: También llamado HTML injection. Esta vulnerabilidad compromete la seguridad del usuario, no la del servidor. Esta técnica consiste en inyectar código HTML o Javascript en una web con el fin de que sean ejecutados por el navegador web de los usuarios finales en el momento de cargar la página alterada. Por esta misma razón a este tipo de ataques se le denomina “ataque del lado del cliente”, ya que no se ejecutaría en el servidor. Con este ataque se suele acceder a la información contenida en las cookies o token de sesión que se han usado en este sitio web para después usarlo sin el permiso de dicho usuario.
+
+
+Ataques Phishing: Esta técnica consiste en  captar información de los usuarios haciendo creer que están en una página de confianza para ellos (porque tiene un aspecto igual) no estando en ella, entonces el usuario facilita los datos de acceso y una vez esto el Hacker ya puede acceder con la identidad de este usuario a ese lugar. En el mundo de la informática esto es más conocido como suplantación de la identidad.
+El mecanismo más usado para este tipo de ataques es la generación de un correo electrónico falso que simula proceder de una empresa de confianza. Este correo electrónico contendrá enlaces que replican varias páginas web con el aspecto y funcionalidad de esa supuesta empresa. Si el receptor de este correo confía  en que el mensaje procede de esta fuente probablemente introducirá información sensible en un formulario falso.
+
+
+Se han comentado los principales tipos de ataques. Sobre el cómo resolverlos me lo guardo para la exposición del trabajo en clase ya que es el tema que nos ocupa a mi y a mi grupo de trabajo.

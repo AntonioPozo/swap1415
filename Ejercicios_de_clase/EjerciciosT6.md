@@ -31,6 +31,9 @@ Con esto ya queda el tráfico permitido para la máquina 10.211.55.18
 
 ##Ejercicio T6.2:
 Comprobar qué puertos tienen abiertos nuestras máquinas, su estado y qué programa o demono lo ocupa
+En la siguiente captura se muestra la salida del comando nmap -v -A 10.211.55.31
+
+![imagen](https://github.com/AntonioPozo/swap1415/blob/master/Ejercicios_de_clase/cap_T6-ej6point2.png)
 
 
 ##Ejercicio T6.3:

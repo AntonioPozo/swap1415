@@ -26,7 +26,7 @@ Buscar información sobre los sistemas de ficheros en red más utilizados en la 
 -SAN: Red de almacenamiento especializada que conecta dispositivos de almacenamiento a los servidores.
 Conjunto de dispositivos interconectados (discos, cintas, etc.) y servidores conectados a un canal de comunicación e intercambio de datos común (concentrador de alta velocidad).
 Este tipo de almacenamiento en red tiene una gran flexibilidad y facilidad de manejo del almacenamiento. Se puede actualizar cualquier componente.
-Red de alta velocidad (mínimo de 1Gbps). Es como un bus de un ordenador, pero compartido entre varias máquinas.
+Red de alta velocidad (mínimo de 1Gbps). Es como un bus de un ordenador, pero compartido entre varias máquinas. A continuación se exponen algunas características.
 •  Utiliza hardware de red muy especializado.
 •  Una SAN ofrece una capa de abstracción entre los dispositivos de almacenamiento y los servidores, y permite que el espacio físico de almacenamiento crezca.
 •  Se puede usar para almacenar archivos, compartir datos entre los servidores, mirroring de discos y backups.
